@@ -28,7 +28,7 @@ test('should test even or odd number', () => {
 
 // 5.
 test('should return name', () => {
-    expect(taskOne.printName('Max')).toBe('Hallo, Max');
+    expect(taskOne.printName('Max')).toBe('Hallo, Max!');
 });
 
 // 6.
