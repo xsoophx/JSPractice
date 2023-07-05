@@ -1,8 +1,8 @@
-const task = require("./taskOne");
+const taskOne = require("./taskOne");
 
 // Beispiel:
 test('should print hello world', () => {
-    expect(task.printHallo()).toBe('Hallo Welt!');
+    expect(taskOne.printHallo()).toBe('Hallo Welt!');
 });
 
 // 1.
